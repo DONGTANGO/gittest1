@@ -60,9 +60,7 @@ ul {
   position: fixed;
   top: 30px;
   right: 10px;
-  border-radius: 1px;
-  border: #111;
-  border: 10px;
+  border-radius: 5;
 
 }
 
@@ -80,6 +78,10 @@ li a {
 li a:hover {
   background-color: ghostwhite;
 }
+section{
+  height: 100%;
+  width: 100%;
+}
 
 .ad {
   position: fixed;
@@ -91,9 +93,9 @@ li a:hover {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  background-color: green;
+  background-color: yellowgreen ;
   height: 100;
   width: 100%;
 }
