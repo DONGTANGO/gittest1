@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  z-index: -1;
+  width: 100%;
+}
+
+header input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 20px 30px;
+  background-repeat: no-repeat;
+  text-align: center;
+  border-radius: 8px;
+  width: 400px;
+  height: 75px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+
+input::placeholder {
+  color: lightgray;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  font-weight: 100;
+  background-position: 35px 45px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 30px;
+  right: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+}
+
+ad{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  background-color: #73AD21;
+}
